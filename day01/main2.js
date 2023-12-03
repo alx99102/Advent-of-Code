@@ -1,5 +1,5 @@
 var fs = require('fs');
-var data = fs.readFileSync('input.txt').split('\n');
+var data = fs.readFileSync('input.txt').toString().split('\n');
 
 var sum = 0;
 var digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
