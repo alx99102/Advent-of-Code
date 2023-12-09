@@ -2,7 +2,6 @@
 with open("input.txt") as f:
     data = f.readlines()
 data = [x.strip() for x in data]
-print(data)
 
 
 rows = len(data)
@@ -41,4 +40,5 @@ while row < rows:
         else:
             col += 1
     row += 1
+
 print(sum_parts)
