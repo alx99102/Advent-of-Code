@@ -42,7 +42,21 @@ public class App {
         }
         
 
-        System.out.println(min);
+        System.out.println("Part 1: " + min);
+        min = Long.MAX_VALUE;
+        for(int i = 0; i < seeds.length; i+=2) {
+            for (long j = seeds[i]; j<seeds[i]+seeds[i+1]; j++) {
+                long current = j;
+                for(int k = 0; k < 7; k++) {
+                    current = mapValue(steps[k], current);
+                }
+                if(current < min) {
+                    min = current;
+                }
+            }
+        }
+        
+        System.out.println("Part 2: " + min);
         scanner.close();
     }
 
