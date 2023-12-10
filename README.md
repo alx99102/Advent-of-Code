@@ -4,8 +4,8 @@ This repository contains my personal solutions for the [Advent of Code 2023](htt
 
 ## Project Structure
 
-- Each day of the challenge has its own folder, named `DayXX`, where `XX` is the day number (e.g., `Day01`, `Day02`, etc.).
-- Inside each `DayXX` folder, you will find:
+- Each day of the challenge has its own folder, named `dayXX`, where `XX` is the day number (e.g., `day01`, `ay02`, etc.).
+- Inside each `dayXX` folder, you will find:
   - The solution code files.
   - The `input.txt` problem dataset I used to solve the challenges
 
