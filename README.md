@@ -12,3 +12,17 @@ This repository contains my personal solutions for the [Advent of Code 2023](htt
 ## Instructions for Each Challenge
 
 For detailed instructions and the problem statement of each day's challenge, navigate to the corresponding day's page on the [Advent of Code 2023](https://adventofcode.com/2023) site.
+
+## Table of Contents
+
+| Day | Language |
+| --- | -------- |
+| [Day 01](day01) | JavaScript |
+| [Day 02](day02) | JavaScript |
+| [Day 03](day03) | Python, C |
+| [Day 04](day04) | Rust, Go |
+| [Day 05](day05/Part1And2/src) | Java |
+| [Day 06](day06) | PHP |
+| [Day 07](day07) | Ruby |
+| [Day 08](day08) | TypeScript |
+| [Day 09](day09) | Zig |
